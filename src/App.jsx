@@ -4,6 +4,7 @@ import ScrollHint from './components/ScrollHint'
 import InvitationCard from './components/InvitationCard'
 import Divider from './components/Divider'
 import Greeting from './components/Greeting'
+import Timeline from './components/Timeline'
 import Countdown from './components/Countdown'
 import LocationMap from './components/LocationMap'
 import LightReflector from './components/LightReflector'
@@ -52,6 +53,8 @@ export default function App() {
         <InvitationCard name={name} start={!loading} />
         <Divider />
         <Greeting name={name} />
+        <Divider />
+        <Timeline />
         <Divider />
         <Countdown />
         <Divider />
