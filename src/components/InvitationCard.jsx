@@ -96,7 +96,8 @@ export default function InvitationCard({ name, start }) {
           as="div"
           immediate={start}
           delay={0.2}
-          className="max-w-[min(220px,85%)] font-sans text-[clamp(0.8rem,3.5vw,0.9375rem)] font-medium leading-[1.5] text-ink"
+          wordClassName="text-shimmer"
+          className="max-w-[min(240px,88%)] font-sans text-[clamp(0.95rem,4vw,1.0625rem)] font-medium leading-[1.5]"
           text={'Этот благословенный день\nбудет неполным без вас\nи вашей семьи.'}
         />
       </div>

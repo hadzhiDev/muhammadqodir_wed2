@@ -16,8 +16,8 @@ export default function Timeline() {
           viewport={{ once: true, amount: 0.6 }}
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay: i * 0.06 }}
         >
-          <div className="w-[58%] font-body text-[clamp(0.95rem,4vw,1.0625rem)] font-normal leading-[1.5] text-parchment/90">
-            <RevealText text={stage.label} stagger={0.03} />
+          <div className="w-[58%] font-frank text-[30px] leading-[1.1] text-gold">
+            <RevealText text={stage.label} stagger={0.03} wordClassName="text-gold" />
           </div>
 
           <div className="relative w-[42%] text-end font-frank text-[clamp(2.3rem,10vw,3.125rem)] text-gold">

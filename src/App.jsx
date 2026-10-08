@@ -67,7 +67,7 @@ export default function App() {
           >
             С любовью,
             <br />
-            семья Кадировых 🤍
+            семья Кадыровых 🤍
           </p>
         </footer>
       </div>

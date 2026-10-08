@@ -23,7 +23,7 @@ export const LOCATION_TITLE = 'Адрес: "Улица Сулейманова, 1
 
 // Program of the day (label + time). Edit / add / remove freely.
 export const STAGES = [
-  { label: 'Для женщин:\n(без тугуна)', time: '13:00', side: 'right' },
+  { label: 'Для девушек:', time: '13:00', side: 'right' },
   // { label: 'Друзья жениха', time: '13:00', side: 'left' },
   // { label: 'Фуршет\nманзил: Исхака Раззакова, 23\n“Орто Азия”', time: '16:00', side: 'right' },
 ]
